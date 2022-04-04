@@ -2,10 +2,14 @@ package model;
 
 public class Cliente {
 	
-	private String nomeEmpresa;
-	private String nomeRepresentante;
-	private String numeroContato;
+	private String nomeCliente;
 	
-	//public String 
+	public String getNomeCliente() {
+		return this.nomeCliente;
+	}
+	
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
 
 }
